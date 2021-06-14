@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+
+}
+.conteiner{
+    margin: 48px auto 0 auto;
+    width: 1138px;
+}
+.roboto{
+    font-family: 'Roboto', sans-serif;
+}
+.poppins{
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-image: url(./contact-us-bg\ \(1\).jpg);
+    background-repeat: no-repeat;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.logo img{
+    width: 169px;
+}
+.nav{
+    display: inline-block;
+    
+}
+.nav a{
+    margin: 0 16px;
+    text-decoration: none;
+    font-weight: 500;
+    line-height: 1;
+    font-size: .875rem;
+    
+}
+.color{
+    color: #28323c;
+}
+.active{
+    color: #fff;
+    background-color: #28323c;
+    border-radius: .5rem;
+    padding: 8px 20px;
+}
+/*bloque izquierdo*/
+.contact{
+    margin-top: 22px;
+    display: flex;
+    justify-content: space-between;
+}
+.element{
+    font-weight: 500;
+    line-height: 1.15;
+    font-size: 2.5rem;
+}
+
+.p{
+    
+    font-weight: 400;
+    display: block;
+    margin: 1.25rem 0;
+    width: 280px;
+    height: 48px;
+    
+}
+.contactInfo{
+    height: 459px;
+    width: 350px;
+
+}
+#card{
+
+    background-color: #fff;
+    padding: 20px;
+    margin: 0 0 64px 0;
+    border-radius: .5rem;
+    display: flex;
+}
+.icon{
+    padding: 4px 0 0 0;
+    margin: 0 12px 0 0;
+    
+}
+.social {
+  display: flex;
+  margin-top: 64px;
+}
+.redes{
+    background-color: rgba(0, 0, 0, 0.06);
+    height: 38px;
+    width: 38px;
+    border-radius: 0.25rem;
+    display: flex;
+    justify-content: center;
+    margin: 0 4px;
+}
+.icono{
+    color: #000;
+    margin: 11px 38px;
+}
+
+
+/*bloque derecho*/
+
+.flex{
+    display: flex; 
+   
+}
+.boxDesign{
+    flex-direction: column;
+    width: 500px;
+}
+
+.inputs{
+    padding: 20px 18px 17px 16px;
+    background-color: #fff;
+    border-radius: 0.25rem;
+    border: 1px solid #bdbdbd;
+    box-sizing: content-box;
+    margin: .35rem;
+    resize: none;
+    
+}
+.inputs::placeholder{
+    font-size: .875rem;
+}
+.under{
+    width: 219px;
+    height: 19px;
+}
+
+.contactUs{
+    color: #fff;
+    background-color: #28323c;
+    border: 1px solid #bdbdbd;
+    border-radius: .25rem;
+    padding: 20px 18px 17px 16px;
+    justify-content: center;
+    text-align: center;
+    margin: .35rem;
+}
